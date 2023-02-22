@@ -10,7 +10,7 @@ class NumbersConverter {
     return result;
   }
 
-  static int convertTo2(num a) {
+  static String convertTo2(num a) {
     num? t;
     List list = [];
     var result = '';
@@ -24,7 +24,7 @@ class NumbersConverter {
       result += element.toString();
     });
 
-    return int.parse(result);
+    return result;
   }
 
   static int convertTo10(String a) {
